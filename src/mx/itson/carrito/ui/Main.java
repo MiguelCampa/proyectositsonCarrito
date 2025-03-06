@@ -6,6 +6,7 @@ package mx.itson.carrito.ui;
 
 import java.util.Scanner;
 import mx.itson.carrito.entidades.Carro;
+import mx.itson.carrito.enums.TipoMotor;
 
 /**
  *
@@ -28,6 +29,7 @@ public class Main {
      bmw.setMarca("BMW");
      bmw.setYear(2022);        
      bmw.setKilometraje(10000);
+     bmw.setTipoMotor(TipoMotor.HÍBRIDO);
      
      /*bmw.color = "Negro";
      bmw.marca = "BMW";
